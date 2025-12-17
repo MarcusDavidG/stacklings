@@ -1,0 +1,11 @@
+[project]
+name = "tipping-platform"
+description = "Content creator tipping and subscription system"
+authors = []
+telemetry = false
+cache_dir = "./.cache"
+requirements = []
+[contracts.tipping-platform]
+path = "contracts/tipping-platform.clar"
+clarity_version = 2
+epoch = 2.4

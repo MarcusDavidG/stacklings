@@ -1,0 +1,11 @@
+[project]
+name = "yield-aggregator"
+description = "Auto-compounding yield optimizer"
+authors = []
+telemetry = false
+cache_dir = "./.cache"
+requirements = []
+[contracts.yield-aggregator]
+path = "contracts/yield-aggregator.clar"
+clarity_version = 2
+epoch = 2.4
